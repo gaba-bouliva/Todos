@@ -49,9 +49,6 @@ export default {
       }
     },
   },
-  mounted() {
-    console.log(this.$store.getters["darkMode/getDarkMode"]);
-  },
 };
 </script>
 <style scoped>

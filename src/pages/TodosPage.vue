@@ -39,6 +39,7 @@
             <q-checkbox
               left-label
               v-model="todo.completed"
+              @click="updateTodo(todo)"
               checked-icon="check_circle"
               unchecked-icon="panorama_fish_eye"
             />
